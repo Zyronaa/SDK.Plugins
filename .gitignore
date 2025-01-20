@@ -1,0 +1,7 @@
+.vs/
+.github/
+.idea/
+bin/
+obj/
+packages/
+*.user

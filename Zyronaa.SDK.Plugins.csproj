@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net471</TargetFrameworks>
+    <AssemblyName>Zyronaa.SDK.Plugins</AssemblyName>
+    <RootNamespace>Zyronaa.SDK.Plugins</RootNamespace>
+
+    <PackageId>NFive.SDK.Plugins</PackageId>
+    <Authors>Zyronaa, NFive</Authors>
+    <Owners>Zyronaa</Owners>
+    <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
+    <Tags>zyronaa fivem gtav</Tags>
+    <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+    <RepositoryUrl>https://github.com/Zyronaa/SDK.Plugins</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Zyronaa plugin SDK for plugin parsing and loading</Description>
+    <Title>Zyronaa Plugins SDK</Title>
+    <PackageTags>zyronaa fivem gtav</PackageTags>
+    <Version>0.1.4</Version>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Copyright>Copyright © Zyronaa 2025</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SemanticVersioning" Version="2.0.2" />
+    <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="YamlDotNet" Version="16.3.0" />
+    <PackageReference Include="Zyronaa.SDK.Core" Version="1.0.2" />
+    <Reference Include="Newtonsoft.Json">
+	    <HintPath>$(PkgNewtonsoft_Json)\lib\portable-net40+sl5+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
