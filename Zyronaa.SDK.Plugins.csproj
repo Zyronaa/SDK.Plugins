@@ -5,7 +5,7 @@
     <AssemblyName>Zyronaa.SDK.Plugins</AssemblyName>
     <RootNamespace>Zyronaa.SDK.Plugins</RootNamespace>
 
-    <PackageId>NFive.SDK.Plugins</PackageId>
+    <PackageId>Zyronaa.SDK.Plugins</PackageId>
     <Authors>Zyronaa, NFive</Authors>
     <Owners>Zyronaa</Owners>
     <PackageLicenseExpression>LGPL-3.0-only</PackageLicenseExpression>
